@@ -9,7 +9,7 @@ Celery-Prometheus Exporter
     metrics_path: /
     dns_sd_configs:
     - names:
-      - 'tasks.celery_exporter' # Replace celery_exporter with your exporter container name
+      - 'tasks.celery_exporter' # Replace celery_exporter with your exporter service name
       type: 'A'
       port: 8100
 ```

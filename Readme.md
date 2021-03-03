@@ -18,7 +18,7 @@ Celery-Prometheus Exporter
 
 ```
   rc_celery_exporter:
-    image:  *YOUR_REPO*/celery_exporter:latest
+    image:  kuzyashin/celery_exporter:latest
     deploy:
       mode: replicated
       replicas: 1
